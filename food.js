@@ -10,7 +10,7 @@ console.log('Build your Sandwich');
 const API = process.env.API_URL;
 const questions = [
   {
-    type: 'checkbox',
+    type: 'list',
     name: 'bread',
     message: 'please select your type of bread',
     choices: ['White', 'Whole grain', 'Whole wheat', 'Vegan', 'Keto'],
